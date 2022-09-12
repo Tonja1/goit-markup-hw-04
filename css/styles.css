@@ -19,6 +19,7 @@ html {
   --main-cl: #f5f5f5;
   --backgr-filtr: #f5f4fa;
   --backgr-col: #2f303a;
+  --icon-cl: #afb1b8;
 
   /* Other */
   --accent-cl: #2196f3;
@@ -167,7 +168,6 @@ p {
   color: var(--txt-col);
 }
 
-
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -279,6 +279,13 @@ p {
   background-color: #f5f4fa;
 }
 
+.photo-item {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-list {
   gap: 30px;
 }
@@ -299,10 +306,36 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--txt-col);
+  margin-bottom: 16px;
 }
 
 .photo-wrapp {
   padding: 30px 0;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
+  color: var(--icon-cl);
+  background-color: var(--txt-but);
+  border-radius: 50%;
+}
+
+.social-link:hover {
+  color: var(--accent-cl);
+}
+
+.social-icon {
+  fill: currentColor;
 }
 
 /* Підвал */
