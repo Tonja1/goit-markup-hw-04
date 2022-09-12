@@ -142,6 +142,20 @@ p {
   color: var(--accent-cl);
 }
 
+.link-mail {
+  display: flex;
+}
+
+
+
+.envelope {
+  fill: currentColor;
+}
+
+.smartphone {
+  fill: currentColor;
+}
+
 /* Контактні дані */
 .link:hover,
 .link:focus {
@@ -316,7 +330,9 @@ p {
 .socials {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 10px;
+  padding-bottom: 30px;
 }
 
 .social-link {
@@ -324,18 +340,36 @@ p {
   justify-content: center;
   width: 44px;
   height: 44px;
-
+  align-items: center;
   color: var(--icon-cl);
   background-color: var(--txt-but);
   border-radius: 50%;
 }
 
-.social-link:hover {
-  color: var(--accent-cl);
+.social-link:hover,
+.social-link:focus {
+  fill: var(--txt-but);
+  background-color: var(--accent-cl);
 }
 
 .social-icon {
   fill: currentColor;
+}
+
+.clients {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-cl);
+  border-radius: 4px;
 }
 
 /* Підвал */
