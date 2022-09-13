@@ -144,16 +144,33 @@ p {
 
 .link-mail {
   display: flex;
+  gap: 10px;
+  align-items: center;
+  color: var(--txt-col);
 }
 
-
+.link-mail:hover,
+.link-mail:focus {
+  color: var(--accent-cl);
+}
 
 .envelope {
   fill: currentColor;
 }
 
+.link-tel {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: var(--txt-col);
+}
 .smartphone {
   fill: currentColor;
+}
+
+.link-tel:hover,
+.link-tel:focus {
+  color: var(--accent-cl);
 }
 
 /* Контактні дані */
@@ -348,7 +365,7 @@ p {
 
 .social-link:hover,
 .social-link:focus {
-  fill: var(--txt-but);
+  color: var(--txt-but);
   background-color: var(--accent-cl);
 }
 
@@ -362,6 +379,10 @@ p {
   gap: 30px;
 }
 
+.clients-box {
+  fill: currentColor;
+}
+
 .frame {
   display: flex;
   justify-content: center;
@@ -370,6 +391,11 @@ p {
   height: 92px;
   border: 1px solid var(--icon-cl);
   border-radius: 4px;
+}
+
+.frame:hover,
+.frame:focus {
+  color: var(--accent-cl);
 }
 
 /* Підвал */
@@ -430,6 +456,29 @@ p {
   text-decoration: none;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.call {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--txt-but);
+  margin-bottom: 20px;
+}
+
+.social-link-footer {
+  display: flex;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  fill: var(--txt-but);
+  background-color: rgba(255, 255, 255, 10%);
+  border-radius: 50%;
 }
 
 .port-list {
