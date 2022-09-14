@@ -90,6 +90,8 @@ p {
 
 .logo-link {
   margin-right: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .logo {
   font-family: Raleway;
@@ -135,6 +137,8 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-link:hover,
@@ -147,6 +151,8 @@ p {
   gap: 10px;
   align-items: center;
   color: var(--txt-col);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .link-mail:hover,
@@ -163,6 +169,8 @@ p {
   gap: 10px;
   align-items: center;
   color: var(--txt-col);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .smartphone {
   fill: currentColor;
@@ -266,6 +274,16 @@ p {
   overflow: hidden;
 }
 
+.plate {
+  display: flex;
+  background-color: var(--backgr-filtr);
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
 .list-title {
   text-transform: uppercase;
   font-size: 14px;
@@ -349,7 +367,6 @@ p {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding-bottom: 30px;
 }
 
 .social-link {
@@ -389,6 +406,7 @@ p {
   align-items: center;
   width: 170px;
   height: 92px;
+  color: var(--icon-cl);
   border: 1px solid var(--icon-cl);
   border-radius: 4px;
 }
@@ -396,6 +414,7 @@ p {
 .frame:hover,
 .frame:focus {
   color: var(--accent-cl);
+  border-color: var(--accent-cl);
 }
 
 /* Підвал */
@@ -403,6 +422,15 @@ p {
   background: var(--backgr-col);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.address-wrapper {
+  margin-right: 70px;
 }
 
 .footer-logocolor {
@@ -476,9 +504,15 @@ p {
   width: 44px;
   height: 44px;
   align-items: center;
-  fill: var(--txt-but);
+  color: var(--txt-but);
   background-color: rgba(255, 255, 255, 10%);
   border-radius: 50%;
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus {
+  color: var(--txt-but);
+  background-color: var(--accent-cl);
 }
 
 .port-list {
