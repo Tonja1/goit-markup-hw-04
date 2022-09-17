@@ -146,6 +146,7 @@ p {
 
 .link-mail {
   display: flex;
+  font-weight: 500;
   gap: 10px;
   align-items: center;
   color: var(--txt-col);
@@ -165,6 +166,7 @@ p {
 
 .link-tel {
   display: flex;
+  font-weight: 500;
   gap: 10px;
   align-items: center;
   color: var(--txt-col);
@@ -190,7 +192,7 @@ p {
 .contacts-list {
   display: flex;
   margin-left: auto;
-  }
+}
 
 .contacts-list .list-item + .list-item {
   margin-left: 50px;
@@ -213,7 +215,10 @@ p {
 /* Секція HERO */
 .section-hero {
   background: var(--backgr-col);
+  max-width: 1500px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: linear-gradient(
@@ -524,6 +529,7 @@ p {
 .filtr:focus {
   color: var(--txt-but);
   background-color: var(--accent-cl);
+  box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
 }
 
 .filtr {
@@ -553,7 +559,7 @@ p {
 
 .projects-item:hover,
 .projects-item:focus {
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
 }
 
 .photo-list {
