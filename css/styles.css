@@ -90,8 +90,8 @@ p {
 
 .logo-link {
   margin-right: 93px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo {
   font-family: Raleway;
@@ -135,8 +135,8 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-link:hover,
@@ -147,6 +147,7 @@ p {
 .link-mail {
   display: flex;
   font-weight: 500;
+  font-size: 14px;
   gap: 10px;
   align-items: center;
   color: var(--txt-col);
@@ -167,6 +168,7 @@ p {
 .link-tel {
   display: flex;
   font-weight: 500;
+  font-size: 14px;
   gap: 10px;
   align-items: center;
   color: var(--txt-col);
@@ -535,6 +537,7 @@ p {
 .filtr {
   font-family: inherit;
   background: var(--backgr-filtr);
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
